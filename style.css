@@ -1,0 +1,185 @@
+body {
+  background-color: #000000;
+}
+
+/* yellow=#f6d55c 
+
+   Green=#3eb489
+
+*/
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #00b6ff;
+  margin-bottom: 10%;
+  color: #000000;
+}
+
+#project {
+  background-color: #00b6ff;
+}
+
+.card {
+  border: 10px;
+}
+
+footer {
+  background-color: #00b6ff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+#project h2 {
+  font-family: "Rowdies";
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #svg-basket {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #svg-pc {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+.btn-blue {
+  width: 35px;
+  background-color: #00b6ff;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: #28a3d4;
+  color: white;
+  transform: scale(105%);
+}
+
+.btn-red {
+  width: 35px;
+  background-color: #d72631;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: #b9232d;
+  color: white;
+  transform: scale(105%);
+}
+
+.btn-yellow {
+  width: 35px;
+  background-color: #f6d55c;
+  color: white;
+}
+
+.btn-yellow:hover {
+  background-color: #caad45;
+  color: white;
+  transform: scale(105%);
+}
+
+.btn-green {
+  width: 35px;
+  background-color: #3eb489;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #318667;
+  color: white;
+  transform: scale(105%);
+}
+
+.navbar-brand {
+  transform: scale(105%);
+}
+
+.navbar-brand:hover {
+  transform: scale(110%);
+}
+
+#navbarNav {
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  transform: scale(105%);
+}
+
+.nav-link {
+  margin-right: 10px;
+}
+
+.btn-navbar {
+  margin-right: 10px;
+}
+
+#profile {
+  transition: all 0.2s ease-in-out;
+}
+#profile:hover {
+  cursor: pointer;
+  transform: scale(105%);
+}
+
+#profile:active {
+  transform: scale(100%);
+}
+
+#svg-basket {
+  transition: all 1s ease-in-out;
+}
+
+#svg-basket:hover {
+  transform: scale(105%) rotateZ(3deg);
+}
+
+#svg-pc {
+  transition: all 1s ease-in-out;
+}
+
+#svg-pc:hover {
+  transform: scale(105%) rotateZ(3deg);
+}
+
+#html {
+  transition: all 0.5s;
+}
+
+#html:hover {
+  transform: scale(105%);
+}
+
+#css {
+  transition: all 0.5s;
+}
+
+#css:hover {
+  transform: scale(105%);
+}
+#figma {
+  transition: all 0.5s;
+}
+
+#figma:hover {
+  transform: scale(105%);
+}
+#java {
+  transition: all 0.5s;
+}
+
+#java:hover {
+  transform: scale(105%);
+}

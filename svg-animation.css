@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basketball {
+  animation: ball 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#leftarm {
+  animation: arm 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#legs {
+  animation: legs 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#man {
+  animation: man 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#Vector {
+  animation: background 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#arm {
+  animation: codearm 1s ease-in infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#up-pc {
+  animation: up-pc 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#bot-pc {
+  animation: bot-pc 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#up-code {
+  animation: up-code 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#bot-code {
+  animation: bot-code 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#head {
+  animation: head 2s ease-in-out infinite alternate;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+@keyframes ball {
+  from {
+    transform: translateY(0%) rotateZ(0deg);
+  }
+  to {
+    transform: translateY(1%) rotateZ(5deg);
+  }
+}
+
+@keyframes arm {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(3%);
+  }
+}
+
+@keyframes legs {
+  from {
+    transform: rotateX(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(10deg) rotateZ(1deg);
+  }
+}
+
+@keyframes man {
+  from {
+    transform: rotateX(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(-10deg) rotateZ(-1deg);
+  }
+}
+
+#arm {
+  animation: codearm 1s ease-in infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#up-pc {
+  animation: up-pc 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#bot-pc {
+  animation: bot-pc 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#up-code {
+  animation: up-code 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#bot-code {
+  animation: bot-code 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#head {
+  animation: head 2s ease-in-out infinite alternate;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+@keyframes codearm {
+  from {
+    transform: rotateX(0deg) translateY(0%);
+  }
+  to {
+    transform: rotateX(10deg) translateY(3%);
+  }
+}
+
+@keyframes up-pc {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(20%);
+  }
+}
+
+@keyframes bot-pc {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}
+
+@keyframes up-code {
+  from {
+    transform: translateX(0%) translateY(0%);
+  }
+  to {
+    transform: translateX(4%) translateY(-2%);
+  }
+}
+
+@keyframes bot-code {
+  from {
+    transform: translateX(0%) translateY(0%);
+  }
+  to {
+    transform: translateX(-2%) translateY(2%);
+  }
+}
+
+@keyframes head {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
+
+@keyframes background {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+
+/* WAVE ANIMATION */
+
+#innerwave {
+  animation: wave 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes wave {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(10%);
+  }
+}
