@@ -16,7 +16,9 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
 }
-
+.navbar-brand:hover {
+  transform: scale(101%);
+}
 nav {
   top: 0;
   left: 0;
@@ -30,6 +32,7 @@ nav {
 nav.sticky {
   padding: 10px 150px;
   background-color: #1f1f1f;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .jumbotron {
@@ -124,14 +127,6 @@ section {
   background-color: #318667;
   color: white;
   transform: scale(105%);
-}
-
-.navbar-brand {
-  transform: scale(105%);
-}
-
-.navbar-brand:hover {
-  transform: scale(110%);
 }
 
 #navbarNav {
