@@ -1108,15 +1108,6 @@
         once: false,
       });
 
-      function toggleClassName() {
-        var sidebar = document.querySelector(".sidebar");
-        var wrapper = document.querySelector(".wrapper");
-        var toggle = document.querySelector(".toggle");
-        sidebar.classList.toggle("active");
-        wrapper.classList.toggle("active");
-        toggle.classList.toggle("active");
-      }
-
       window.addEventListener("scroll", function () {
         var nav = document.querySelector("nav");
         nav.classList.toggle("sticky", window.scrollY > 100);
