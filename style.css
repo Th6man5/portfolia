@@ -202,3 +202,18 @@ section {
 #java:hover {
   transform: scale(105%);
 }
+
+.btn-blue2 {
+  background-color: #00b6ff;
+  color: #fff;
+}
+
+.btn-blue2:hover {
+  background-color: #28a3d4;
+  color: white;
+  transform: scale(102%);
+}
+
+.card-title {
+  font-size: 40px;
+}
