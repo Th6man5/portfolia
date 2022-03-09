@@ -97,16 +97,16 @@ section {
   color: #000000;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
   #svg-basket {
-    width: 400px;
+    width: 300px;
     height: 300px;
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
   #svg-pc {
-    width: 400px;
+    width: 300px;
     height: 300px;
   }
 }
@@ -125,12 +125,12 @@ section {
 
 .btn-red {
   width: 35px;
-  background-color: #d72631;
+  background-color: #ef224b;
   color: white;
 }
 
 .btn-red:hover {
-  background-color: #b9232d;
+  background-color: #ef224b;
   color: white;
   transform: scale(105%);
 }
@@ -243,8 +243,6 @@ section {
 }
 
 .card {
-  border-style: solid;
-  border-radius: 10px;
-  background-color: #000000;
+  background-color: #3c1053ff;
   color: #fff;
 }
