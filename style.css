@@ -30,7 +30,7 @@ nav {
   transition: 0.5s;
 }
 nav.sticky {
-  padding: 10px 150px;
+  padding: 10px 100px;
   background-color: #1f1f1f;
   border-radius: 0px 0px 5px 5px;
 }
@@ -54,7 +54,7 @@ nav.sticky {
     background-color: #1f1f1f;
     border-radius: 0px 0px 5px 5px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     z-index: 10000;
     transition: 0.5s;
   }
