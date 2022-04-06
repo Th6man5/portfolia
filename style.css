@@ -23,14 +23,14 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 100px;
+
   display: flex;
   align-items: center;
   z-index: 10000;
   transition: 0.5s;
 }
 nav.sticky {
-  padding: 10px 100px;
+  padding: 10px 7%;
   background-color: #1f1f1f;
   border-radius: 0px 0px 5px 5px;
 }
@@ -47,17 +47,7 @@ nav.sticky {
   .navbar-brand:hover {
     transform: scale(101%);
   }
-  nav {
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #1f1f1f;
-    border-radius: 0px 0px 5px 5px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 10000;
-    transition: 0.5s;
-  }
+
   nav.sticky {
     background-color: #1f1f1f;
     border-radius: 0px 0px 5px 5px;
