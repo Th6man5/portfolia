@@ -23,7 +23,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-
+  padding: 0px 10px;
   display: flex;
   align-items: center;
   z-index: 10000;
@@ -45,12 +45,15 @@ nav.sticky {
     letter-spacing: 1px;
   }
   .navbar-brand:hover {
-    transform: scale(101%);
+    transform: scale(100%);
   }
 
   nav.sticky {
     background-color: #1f1f1f;
     border-radius: 0px 0px 5px 5px;
+  }
+  .nav-link:hover {
+    transform: scale(105%);
   }
 }
 
