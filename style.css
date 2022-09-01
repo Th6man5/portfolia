@@ -85,7 +85,7 @@ section {
 }
 
 #project h2 {
-  font-family: "Rowdies";
+  font-family: "Rowdies", sans-serif;
   font-size: 50px;
   color: #000000;
 }
